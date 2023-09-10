@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitBit</title>
+</head>
+<body>
+    <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links li {
+  margin-left: 20px;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  margin-top: 100px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.cta-btn {
+  display: inline-block;
+  background-color: #ff6f00;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.cta-btn:hover {
+  background-color: #ff8f00;
+}
+.feature-box {
+  margin: 40px 0;
+}
+.feature-box img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+.feature-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#specs ul {
+  list-style: none;
+  padding: 0;
+}
+#specs li {
+  margin-bottom: 10px;
+}
+.price-box {
+  text-align: center;
+  margin: 40px;
+}
+.price-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.price-box p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.price-box .cta-btn {
+  display: inline-block;
+  background-color: #ff6f00;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.price-box .cta-btn:hover {
+  background-color: #ff8f00;
+}
+#reviews {
+  padding: 40px 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+#reviews {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.review img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.review h3 {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.review p {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  } 
+  .review img {
+    width: 80px;
+    height: 80px;
+  }
+  .review h3 {
+    font-size: 18px;
+  }
+  .review p {
+    font-size: 14px;
+  }
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-column {
+  width: 50%;
+  padding: 0 20px;
+}
+footer h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer li {
+  margin-bottom: 5px;
+}
+footer p {
+  font-size: 16px;
+}
+    </style>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">SmartWatch</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#specs">Specifications</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Discover the Future<br>on Your Wrist</h1>
+      <a href="#pricing" class="cta-btn">Buy Now</a>
+    </div>
+  </header>
+
+  <section id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="feature-box">
+        <img src="smartwatch-submerged.jpg" alt="Feature 1">
+        <h3>Waterproof</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in ex id odio aliquam vestibulum. Suspendisse aliquet dapibus dolor, vel iaculis massa pellentesque ut.</p>
+      </div>
+      <div class="feature-box">
+        <img src="3862393.jpg" alt="Feature 2">
+        <h3>Heart Rate Monitor</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quisquam maiores ab inventore perspiciatis reiciendis laboriosam dolores ipsam recusandae a praesentium minima harum, alias voluptates.</p>
+      </div>
+      <div class="feature-box">
+        <img src="preview.jpg" alt="Feature 3">
+        <h3>GPS Tracking</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum soluta, cupiditate nostrum officia explicabo libero amet voluptatibus, at tempora quaerat doloribus facilis accusantium quod similique</p>
+      </div>
+    </div>
+  </section>
+  <section id="specs">
+    <div class="container">
+      <h2>Specifications</h2>
+      <ul>
+        <li>Screen Size: 1.5 inches</li>
+        <li>Battery Life: Up to 7 days</li>
+        <li>Connectivity: Bluetooth, Wi-Fi</li>
+        <li>Compatibility: iOS, Android</li>
+        <li>Water Resistance: 50 meters</li>
+      </ul>
+    </div>
+  </section>
+  <section id="pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <div class="price-box">
+        <h3>Basic</h3>
+        <img src="3794066.jpg" width="250px" height="250px">
+        <p>2500/-</p>
+        <a href="#" class="cta-btn">Buy Now</a>
+      </div>
+      <div class="price-box">
+        <h3>Standard</h3>
+        <img src="still-life-tech-device.jpg" width="250px" height="250px">
+        <p>4999/-</p>
+        <a href="#" class="cta-btn">Buy Now</a>
+        </div>
+    </section>
+    <section id="reviews">
+        <div class="container">
+          <h2>Customer Reviews</h2>
+          <div class="review">
+            <img src="customer1.jpg" width="250px" height="150px" alt="Customer 1">
+            <h3>John Doe</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in ex id odio aliquam vestibulum. Suspendisse aliquet dapibus dolor, vel iaculis massa pellentesque ut.</p>
+          </div>
+          <div class="review">
+            <img src="customer2.jpg" width="250px" height="200px" alt="Customer 2"><br>
+            <h3>Marie</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio rem fuga reprehenderit aspernatur necessitatibus aliquam commodi libero cum. Pariatur dolorum minima explicabo, perferendis dolorem sed?
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <section id="contact">
+        <div class="container">
+          <div class="footer-column">
+            <h3>Delivery Locations</h3>
+            <ul>
+              <li>New York, USA</li>
+              <li>London, UK</li>
+              <li>Paris, France</li>
+              <li>Tokyo, Japan</li>
+              <br>
+              <li>Contact:+91-8000620738</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in ex id odio aliquam vestibulum. Suspendisse aliquet dapibus dolor, vel iaculis massa pellentesque ut.</p>
+          </div>
+        </div>
+      </footer></section>
+      <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+window.addEventListener('scroll', function () {
+  const header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 0);
+});
+      </script> 
+</body>
+</html>
